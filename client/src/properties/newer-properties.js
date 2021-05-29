@@ -14,6 +14,10 @@ import slide10 from './../images/properties/newer/3122-W-Knights-Ave-Tampa/1.jpg
 import slide11 from './../images/properties/newer/3122-W-Knights-Ave-Tampa/2.jpg'
 import slide12 from './../images/properties/newer/3122-W-Knights-Ave-Tampa/3.jpg'
 
+import slide13 from './../images/properties/newer/3229-W-Saint-Conrad-St-Tampa-Fl-33607/1.jpg'
+import slide14 from './../images/properties/newer/3229-W-Saint-Conrad-St-Tampa-Fl-33607/2.jpg'
+import slide15 from './../images/properties/newer/3229-W-Saint-Conrad-St-Tampa-Fl-33607/3.jpg'
+
 export default [
     {
         id: 0,
@@ -49,6 +53,15 @@ export default [
             slide10,
             slide11,
             slide12
+        ]
+    },
+    {
+        id: 4,
+        address: 'Ariel drone view',
+        images: [
+            slide13,
+            slide14,
+            slide15
         ]
     },
   
