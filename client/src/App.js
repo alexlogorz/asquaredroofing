@@ -28,7 +28,7 @@ const App = (props) => {
         </Switch>
       </Router>
       
-      <div align='center' style={{color: '#777'}}>&copy; asquaredroofing.com. All rights reserved. <b>License #CCC1329752</b></div>
+      <div align='center' style={{color: '#777'}}>&copy; asquaredroofing.com. All rights reserved. License #CCC1329752</div>
     </div>
   )
 }

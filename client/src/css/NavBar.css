@@ -5,9 +5,8 @@
 
 .Link {
     color:white !important;
-    text-transform: uppercase;
 }
 
 .Link:hover {
-    color: '#fff';
+    opacity: .6;
 }

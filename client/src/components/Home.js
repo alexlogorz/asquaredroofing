@@ -4,6 +4,8 @@ import { Container, Col, Row } from 'react-bootstrap'
 import ContactForm from './ContactForm'
 import Logo from '../images/logo.png'
 import '../css/Home.css'
+import { ImLocation } from 'react-icons/im'
+import { BsFillTelephoneFill } from 'react-icons/bs'
 
 const Home = (props) => {
 
@@ -65,16 +67,18 @@ const Home = (props) => {
             <Container className='Container card'>
                 <Row className='Row padding-50'>
                 <Col className='Col' md={6}>
-                    <h3>Locations</h3>
+                    <h3>Locations <ImLocation/></h3>
                     <hr/>
-                    <p><b>Tampa, Fl</b><br/>4813 N Manhattan Ave, Tampa, Fl 33614</p>
-                    <p><b>Miami, Fl</b><br/>8144 W 26th Ave, Hialeah, Fl 33016</p>
+                    <a href='https://www.google.com/search?q=4813+N+Manhattan+Ave%2C+Tampa%2C+Fl+33614&rlz=1C1UEAD_enUS951US951&oq=4813+N+Manhattan+Ave%2C+Tampa%2C+Fl+33614&aqs=chrome..69i57j33i299.1139j0j7&sourceid=chrome&ie=UTF-8'  target='new'>Tampa office</a>
+                    <br/>
+                    <a href='https://www.google.com/search?q=8144+W+26th+Ave%2C+Hialeah%2C+Fl+33016&rlz=1C1UEAD_enUS951US951&oq=8144+W+26th+Ave%2C+Hialeah%2C+Fl+33016&aqs=chrome..69i57j33i299.469j0j4&sourceid=chrome&ie=UTF-8' target='new'>Miami office</a>
                 </Col>
                 <Col className='Col' md={6}>
-                    <h3>Phone Numbers</h3>
+                    <h3>Contact <BsFillTelephoneFill/></h3>
                     <hr/>
-                    <p><b>Tampa, Fl</b><br/>813 559 1252</p>
-                    <p><b>Miami, Fl</b><br/>305 231 7111</p>
+                    <a href="tel:8135591252">813-559-1252</a>
+                    <br/>
+                    <a href="tel:3052317111">305-231-7111</a>
                 </Col>
                 </Row>
             </Container>
