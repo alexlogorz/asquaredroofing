@@ -25,7 +25,7 @@ const Services = (props) => {
                 <NavBar/>
                 <Row className="Row padding-50">
                     <Col className='Col' md={7}>
-                        <h1>Services</h1>
+                        <h2>Services</h2>
                         <hr/>
                         <p>
                             We offer solutions for both residential and commercial needs, including, new construction, roof repairs and replacement.
@@ -45,7 +45,7 @@ const Services = (props) => {
                         
                     </Col>
                     <Col className='Col' md={5}>
-                        <h1>Contact Us</h1>
+                        <h2>Contact Us</h2>
                         <hr/>
                         <ContactForm/>
                     </Col>

@@ -28,18 +28,18 @@ const Home = (props) => {
                 <Row className="Row padding-50">
                     <Col className='Col' md={7}>
                         <div class='about'>
-                            <h1>About Us</h1>
+                            <h2>About Us</h2>
                             <hr/>
                             <p>A Squared Roofing, Inc. is a recognized leader in the roofing industry. Our reputation is built upon our dedication to our clients, including listening to their needs, ideas and constraints, then delivering the agreed upon result.</p>
                         </div>
                         <div class='mission'>
-                            <h1>Mission Statement</h1>
+                            <h2>Mission Statement</h2>
                             <hr/>
                             <p>Our vision is to become our client’s roofing contractor of choice by providing a positive and satisfying roofing experience that exceeds their expectations.</p>
                         </div>
                     </Col>
                     <Col className='Col' md={5}>
-                        <h1>Contact Us</h1>
+                        <h2>Contact Us</h2>
                         <hr/>
                         <ContactForm/>
                     </Col>
@@ -47,21 +47,20 @@ const Home = (props) => {
             </Container>
 
             <Container className='Container creds card'>
-                <Row className="Row overlay">
-                    <Col className='Col' md={6}>
-                        <h1>Our <span style={{color: 'red'}}>Credentials</span></h1>
-                        <p>With over 15 years in the business, We have partnered with various industry leaders.</p>
-                    </Col>
-                    <Col className='Col' md={6}>
-                        <ul>
-                            <li>Energy Star</li>
-                            <li>Spirit of Enterprise</li>
-                            <li>National Roofing</li>
-                            <li>Varitile</li>
-                            <li>Atlas</li>
-                        </ul>
-                    </Col>
-                </Row>
+                <div class='overlay' align='center'>
+                    <Row className='Row'>
+                        <Col className='Col' md={6}><h2>OUR <span style={{color: 'red'}}>CREDENTIALS</span></h2><p>With over 15 years in the business, we have partnered with various industry leaders</p></Col>
+                        <Col className='Col' md={6}>
+                            <ul>
+                                <li>Energy Star</li>
+                                <li>Spirit of Enterprise</li>
+                                <li>National Roofing</li>
+                                <li>Varitile</li>
+                                <li>Atlas</li>
+                            </ul>
+                        </Col>
+                    </Row>
+                </div>
             </Container>
 
             <Container className='Container card'>

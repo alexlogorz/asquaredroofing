@@ -71,12 +71,12 @@ const NewConstruction = (props) => {
                 <NavBar />
                 <Row className="Row padding-50">
                     <Col className='Col projects' md={ 7 }>
-                        <h1>New Construction</h1>
+                        <h2>New Construction</h2>
                         <hr />
                         <RenderProperties />
                     </Col>
                     <Col className='Col' md={ 5 }>
-                        <h1>Contact Us</h1>
+                        <h2>Contact Us</h2>
                         <hr/>
                         <ContactForm />
                     </Col>
